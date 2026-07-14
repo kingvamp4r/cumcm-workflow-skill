@@ -1,0 +1,4 @@
+interface:
+  display_name: "CUMCM 全流程助手"
+  short_description: "从题目核验、建模到论文材料整理的数学建模竞赛工作流"
+  default_prompt: "Use $cumcm-workflow to set up and analyze this CUMCM problem from the provided statement and attachments."

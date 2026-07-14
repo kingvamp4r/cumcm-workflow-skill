@@ -1,0 +1,26 @@
+% 通用中文数学建模论文备选骨架；不是官方赛事模板。
+\documentclass[UTF8, a4paper, 12pt]{ctexart}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath, amssymb, bm, booktabs, longtable, graphicx, float}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{gbt7714}
+\graphicspath{{figures/}}
+\title{【论文标题】}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\input{mainbody/abstract}
+\input{mainbody/ch1_problem}
+\input{mainbody/ch2_analysis}
+\input{mainbody/ch3_assumptions}
+\input{mainbody/ch4_notation}
+\input{mainbody/ch5_model}
+\input{mainbody/ch6_validation}
+\input{mainbody/ch7_evaluation}
+\input{mainbody/ch8_conclusion}
+\bibliographystyle{gbt7714-numerical}
+\bibliography{refs}
+\appendix
+\input{mainbody/appendices}
+\end{document}
