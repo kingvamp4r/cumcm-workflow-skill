@@ -19,7 +19,7 @@ macOS、Linux、Windows Git Bash 或 WSL 可运行：
 脚本默认将 Skill 安装到 `~/.agents/skills/cumcm-workflow`，并下载固定的 `v1demo` 版本。若需要指定其他版本或安装根目录，可分别设置 `CUMCM_WORKFLOW_VERSION`、`CUMCM_SKILLS_DIR` 环境变量。原生 Windows PowerShell 不支持此脚本。
 
 也可以直接克隆固定版本：
-
+```
     git clone --depth 1 --branch v1demo https://github.com/kingvamp4r/cumcm-workflow-skill.git ~/.agents/skills/cumcm-workflow
 ```
 
