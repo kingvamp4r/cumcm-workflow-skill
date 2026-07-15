@@ -7,7 +7,19 @@
 在对话中输入：
 
 ```text
-使用 $cumcm-workflow 分析这个题目。题目文件在……，附件在……
+    使用 $cumcm-workflow 分析这个题目。题目文件在……，附件在……
+
+## 安装
+
+macOS、Linux、Windows Git Bash 或 WSL 可运行：
+
+    curl -fsSL https://raw.githubusercontent.com/kingvamp4r/cumcm-workflow-skill/main/install.sh | bash
+
+脚本默认将 Skill 安装到 `~/.agents/skills/cumcm-workflow`，并下载固定的 `v1demo` 版本。若需要指定其他版本或安装根目录，可分别设置 `CUMCM_WORKFLOW_VERSION`、`CUMCM_SKILLS_DIR` 环境变量。原生 Windows PowerShell 不支持此脚本。
+
+也可以直接克隆固定版本：
+
+    git clone --depth 1 --branch v1demo https://github.com/kingvamp4r/cumcm-workflow-skill.git ~/.agents/skills/cumcm-workflow
 ```
 
 项目开始前必须提供：完整题目、题目声明的全部附件（或明确“无附件”）、工作目录，以及当届竞赛/格式/学校规则。历史题缺少对应年份规则时，产物只能标为练习稿或复核稿，不能声称投稿合规。
